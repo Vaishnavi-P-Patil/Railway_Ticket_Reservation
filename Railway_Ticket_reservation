@@ -1,0 +1,60 @@
+def railway():
+    print('WELCOME TO KOLHAPUR RAILWAY STATION')
+    print('\nPlease make your choice')
+    print('\n1.Pune')
+    print('\n2.Mumbai')
+    print('\n3.Nashik')
+    print('\n4.Delhi')
+    print('\n\n')
+def main():
+    railway()
+    
+while (True):
+    main()
+    a = int(input("Enter your choice :"))
+    if (a==1):
+        
+        print('\nYou have choosen PUNE')
+        print('\nTicket price per person : Rs.250')
+        b= int(input('\nEnter the number of person(s):'))
+        payment = 250*b;
+        print('\nYou have to pay :Rs ',payment)
+        print('\nYour payment have received')
+        print('\nThank you.....')
+
+
+    if (a==2):
+        print('\nYou have choosen Mumbai')
+        print('\nTicket price per person : Rs.350')
+        b= int(input('\nEnter the number of person(s):'))
+        payment = 350*b;
+        print('\nYou have to pay :Rs ',payment)
+        print('\nYour payment have received')
+        print('\nThank you.....')
+
+    if (a==3):
+        print('\nYou have choosen NASHIK')
+        print('\nTicket price per person : Rs.300')
+        b= int(input('\nEnter the number of person(s):'))
+        payment = 300*b;
+        print('\nYou have to pay :Rs ',payment)
+        print('\nYour payment have received')
+        print('\nThank you.....')
+
+    if (a==4):
+        print('\nYou have choosen DELHI')
+        print('\nTicket price per person : Rs.800')
+        b= int(input('\nEnter the number of person(s):'))
+        payment = 800*b;
+        print('\nYou have to pay :Rs ',payment)
+        print('\nYour payment have received')
+        print('\nThank you.....')
+
+    if(a>4):
+        print('\nYou have choosen wrong option. Please choose the correct option')
+
+    print('\n')
+   
+
+
+
